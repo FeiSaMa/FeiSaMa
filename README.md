@@ -1,4 +1,4 @@
-# Alexander
+# Alexander <img src="assets/cursor.svg" width="10" height="28" alt="" align="top">
 
 Building agent tooling at Nankai University, and leaving a rollback path
 in case it breaks.
