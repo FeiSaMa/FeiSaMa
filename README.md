@@ -32,8 +32,8 @@ after bohack.
 
 **flower** — 102 类花卉细粒度分类，ImageNet 预训练 ResNet-18 做两阶段微调。
 Fine-grained 102-class flower classification on an ImageNet-pretrained ResNet-18.
-The useful part is that two-stage fine-tuning, not a bigger backbone, is what
-moves 55.46% to 92.50% top-1.
+The useful conclusion is that two-stage fine-tuning alone is what moves
+55.46% to 92.50% top-1, with the backbone kept at ResNet-18.
 
 - test top-1：55.46%（scratch）→ 81.27%（frozen）→ 92.50%（two-stage）。
 - [FeiSaMa/flower](https://github.com/FeiSaMa/flower)
