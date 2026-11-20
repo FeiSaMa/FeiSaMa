@@ -23,12 +23,14 @@ anything I cannot undo.
 
 ## Selected work
 
-**molt** — 自进化 agent 引擎，只做编排，不自带 agent 能力。
-Self-evolving agent engine: orchestration only. Private for now, open-sourced
-after bohack.
+**[molt](https://github.com/FeiSaMa/molt)** — A CLI for versioning and auditing
+local agent workspaces. It snapshots OpenCode configuration and tool files,
+supports branching, merging, and rollback, and lets new jobs read a fixed
+snapshot. Audit records preserve the original evidence and can include an
+offline model digest with references.
 
-- 四件套 signal / action / verify / rollback：候选改动跑起来、打分、留证据、回退。
-- 打分口径：成功率 > token > 耗时。
+本地 Agent 工作区的版本管理与审计 CLI。给 OpenCode 的配置和工具文件保存快照，
+支持分支、合并和回退，新作业可固定读取指定版本。审计保留原始证据，离线模型摘要可回链核对。
 
 **flower** — 102 类花卉细粒度分类，ImageNet 预训练 ResNet-18 做两阶段微调。
 Fine-grained 102-class flower classification on an ImageNet-pretrained ResNet-18.
